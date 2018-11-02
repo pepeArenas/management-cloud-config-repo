@@ -22,7 +22,7 @@ logging:
       springframework:
         web: debug
 configuration:
-  rabbitmq:
+  broker:
     exchangesInsertion: x.management
     routing-key-insertion: management
     queue-insertion: q.management.insert
