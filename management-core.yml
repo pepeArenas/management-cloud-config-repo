@@ -1,4 +1,4 @@
-loserver:
+server:
   port: 8081
 spring:
   datasource:
@@ -6,8 +6,6 @@ spring:
     username: myuser
     password: mypassword
     driver-class-name: com.mysql.jdbc.Driver
-  application:
-    name: management-core
   jpa:
     show-sql: true
     hibernate:
