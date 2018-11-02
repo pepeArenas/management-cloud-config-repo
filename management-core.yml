@@ -33,3 +33,9 @@ configuration:
     port: 5672
     username: admin
     password: admin
+  database:
+    url: jdbc:mysql://localhost:3308/ManagementProduct
+    username: myuser
+    password: mypassword
+    driverClassName: com.mysql.jdbc.Driver
+
