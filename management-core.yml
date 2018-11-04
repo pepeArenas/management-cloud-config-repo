@@ -2,7 +2,7 @@ server:
   port: 8081
 spring:
   profiles:
-    active: rabbitMQ
+    active: rabbitMiiiiQ
   datasource:
     url: jdbc:mysql://localhost:3308/ManagementProduct
     username: myuser
