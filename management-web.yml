@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: rabbitMQi
+    active: rabbitMQ
   mvc:
     view:
       prefix: /WEB-INF/pages/
