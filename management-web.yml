@@ -19,3 +19,12 @@ configuration:
     port: 5672
     username: admin
     password: admin
+security:
+  user:
+    name: act
+    password: act
+management:
+  security:
+    enabled: true
+    roles: ACTRADMIN
+  context-path: /manage
