@@ -5,6 +5,8 @@ spring:
     view:
       prefix: /WEB-INF/pages/
       suffix: .jsp
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.amqp.RabbitAutoConfiguration
 server:
   port: 8080
 configuration:
