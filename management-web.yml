@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: rabbitMQ
+    active: kafka
   mvc:
     view:
       prefix: /WEB-INF/pages/
