@@ -16,7 +16,7 @@ configuration:
     routing-key-retrieve: management.get
     queue-retrieve: q.management.get
     hostname: localhost
-    port: 5672
+    port: 5673
     username: admin
     password: admin
 security:
