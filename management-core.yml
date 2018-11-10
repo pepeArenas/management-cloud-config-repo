@@ -3,11 +3,6 @@ server:
 spring:
   profiles:
     active: kafka
-  datasource:
-    url: jdbc:mysql://localhost:3308/ManagementProduct
-    username: myuser
-    password: mypassword
-    driver-class-name: com.mysql.jdbc.Driver
   jpa:
     show-sql: true
     hibernate:
